@@ -17,3 +17,12 @@ print("subtraction:",subtraction)
 print("multiplication:",multiplication)
 print("division:",division)
 
+# Take first name and last name as input
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+
+# Concatenate first name and last name
+full_name = first_name + " " + last_name
+
+# Display personalized greeting
+print("Hello,", full_name + "! Welcome!")
